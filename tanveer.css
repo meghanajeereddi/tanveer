@@ -1,0 +1,104 @@
+body{
+    margin-left: 40px;
+}
+h1{
+    color:blue;
+    margin-top: 0px;
+}
+ .sym1{
+    color:blue;
+}
+.item1,.item2,.item3{
+    justify-content: space-around;
+    display: inline-block;
+}
+.item2{
+    position: relative;
+    left:300px;
+}
+.item3{
+    position: relative;
+    left: 670px;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    color:blue;
+}
+.heading,h2,h1{
+    color: navy;
+}
+hr{
+    position: relative;
+    bottom: 20px;
+    background-color:#ffaa00;
+    height:3px;
+    border: none;
+
+}
+.ini,.ini1,.opt3,.same,.con,ul{
+    position: relative;
+    bottom: 25px;
+}
+p{
+    position: relative;
+    bottom: 30px;
+}
+.opt1{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: 23px;
+    text-align: center;
+}
+.ini1{
+        display: flex;
+        flex-direction: row;
+}
+.opt2{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    width: 40px;
+    height: 20px;
+}
+.opt3{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    width: 140px;
+    height: 20px;
+}
+.opt4{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    width: 90px;
+    height: 20px;
+}
+.opt5{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    width: 70px;
+    height: 20px;
+}
+.same span,.same{
+    color: blue;
+    font-size: 17px;
+}
+.new1,.new2{
+    display: inline-block;
+    font-size: 15px;
+}
+.new2{
+    position: relative;
+    left:350px;
+}
+ul{
+    margin-left: 3px;
+    position: relative;
+    left: 10px;
+}
+
